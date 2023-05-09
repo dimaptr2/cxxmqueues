@@ -21,7 +21,10 @@ list(APPEND SRC_FILES ${SRC_DIR}/main.cpp)
 # Organize the links with the shared libraries
 set(LINKED_FLAGS "-L/usr/local/lib")
 
+# Add libraries
 set(LINKED_LIBS qpid-proton-core)
+list(APPEND LINKED_LIBS qpid-proton-cpp)
+
 
 ### Create an executable file
 project(${PROJECT_NAME} VERSION ${VERSI})

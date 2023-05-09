@@ -14,7 +14,12 @@ case $1 in
     ;;
     clean)
 	    cd $BUILD_DIR
-	    make clean
+		if [ ! -f build.ninja ]; then
+		    make clean
+		fi
+		if [ -f build.ninja ]; then
+		    ninja clean
+		fi
 	    cd ../
 	    rm -rf $BUILD_DIR
 	    echo "The project has cleaned"
