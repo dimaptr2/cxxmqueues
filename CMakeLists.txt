@@ -25,7 +25,6 @@ set(LINKED_FLAGS "-L/usr/local/lib")
 set(LINKED_LIBS qpid-proton-core)
 list(APPEND LINKED_LIBS qpid-proton-cpp)
 
-
 ### Create an executable file
 project(${PROJECT_NAME} VERSION ${VERSI})
 
