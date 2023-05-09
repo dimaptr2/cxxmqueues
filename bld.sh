@@ -21,5 +21,6 @@ case $1 in
     ;;
     *)
         echo "Use only: build | clean"
-	exit 1
+	    exit 1
+	;;
 esac
