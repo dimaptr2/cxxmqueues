@@ -1,0 +1,9 @@
+build
+*.o
+simbroker
+*.ini
+*.log
+.eclipse
+.idea
+.settings
+.vscode
