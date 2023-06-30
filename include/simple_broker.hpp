@@ -4,11 +4,8 @@
 // STL
 #include <iostream>
 
-// Proton QPID
+// Proton QPI
 #include "/usr/local/include/proton/connection.hpp"
-#include "/usr/local/include/proton/container.hpp"
-#include "/usr/local/include/proton/message.hpp"
-#include "/usr/local/include/proton/session.hpp"
 
 namespace velkom
 {
